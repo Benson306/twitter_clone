@@ -11,3 +11,159 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  display: flex;
+}
+
+.main{
+  display: block;
+  width: 46%;
+  margin-left: 25.8%;
+  background-color: black;
+}
+.navbar{
+  position: fixed;
+  width: 46%;
+}
+.content{
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+}
+nav{
+  background-color: black;
+  color: white;
+  padding: 4px;
+}
+nav ul{
+  display: flex;
+}
+nav ul li{
+  text-decoration: none;
+  list-style: none;
+  width: 20%;
+  margin-left: 0;
+}
+.sidebar{
+  background-color: black;
+  color: white;
+  width: 25%;
+  padding: 5px;
+  height: 99.9vh;
+  position: fixed;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  border-right: 1px solid gray;
+}
+.sidebar::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+.sidebar ul li{
+  list-style: none;
+  padding: 15px;
+  font-size: larger;
+  /* text-transform: uppercase; */
+}
+
+#twtbtn{
+  border-radius: 9999px;
+  padding: 10px;
+  width: 90%;
+  height: 50px;
+  background-color: rgb(29, 155, 240);
+  border: none;
+  color: white;
+  font-size: medium;
+}
+.rightbar{
+  background-color: black;
+  color: white;
+  width: 30%;
+  padding: 5px;
+  height: 99.9vh;
+  margin-left: 70%;
+  position: fixed;
+  overflow-y: scroll;
+  border-left: 1px solid gray;
+}
+input[type=text]{
+  width: 70%;
+  padding: 10px;
+  border-radius: 9999px;
+  margin-left: 5%;
+  background-color: #474747;
+  color: white;
+  border: none;
+}
+input[type=text]:hover{
+  border: 1px solid rgb(29, 155, 240);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  font-size: medium;
+}
+.sidebar ul li:hover{
+  background-color: rgb(62, 65, 68);
+  border-radius: 9999px;
+}
+#sidenav{
+  position: fixed;
+  top: 0;
+  width: 30%;
+  padding-top: 8px;
+}
+#star:hover{
+  background-color: rgb(62, 65, 68);
+  padding: 2px;
+  border-radius: 100%;
+}
+
+.trends{
+  background-color: #474747;
+  padding: 10px;
+  margin-top: 10%;
+  border-radius: 5%;
+  margin-left: 5%;
+  margin-right: 15%;
+  height: 70%;
+}
+.follow{
+  background-color: #474747;
+  padding: 10px;
+  margin-top: 5%;
+  border-radius: 5%;
+  margin-left: 5%;
+  margin-right: 15%;
+  height: 50%;
+}
+.tcs{
+  font-size: small;
+  color: gray;
+  margin-left: 7%;
+  line-height: 5px;
+}
+.inbox{
+  background-color: black;
+  bottom: 0;
+  position: fixed;
+  margin-left: 1%;
+  width: 27%;
+  
+}
+.messages{
+  display: flex;
+  padding: 10px;
+  box-shadow: 0px 0px 5px 1px gray;
+  border-radius: 5%;
+  
+}
+.legend{
+  font-weight: bold;
+  font-size: large;
+  margin-right: 55%;
+}
+.sms{
+  display: flex;
+}
