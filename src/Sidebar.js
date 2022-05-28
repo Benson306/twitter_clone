@@ -17,7 +17,7 @@ const Sidebar = () => {
             <ul>
                 <li><img src={home} alt="" height={"20px"} width={'25px'}style={{marginRight:"5%"}}/>Home</li>
                 <li><img src={hash} alt="" height={"20px"} style={{marginRight:"5%"}}/>Explore</li>
-                <li><img src={bell} alt="" height={"20px"} style={{marginRight:"5%"}}/>Notificatons</li>
+                <li><img src={bell} alt="" height={"20px"} style={{marginRight:"5%"}}/>Notifications</li>
                 <li><img src={inbox} alt="" height={"20px"} style={{marginRight:"5%"}}/>Messages</li>
                 <li><img src={bookmark} alt="" height={"20px"} style={{marginRight:"5%"}}/>Bookmarks</li>
                 <li><img src={list} alt="" height={"20px"} style={{marginRight:"5%"}}/>Lists</li>

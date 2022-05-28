@@ -33,7 +33,7 @@ const Content = () => {
         
 
         return () => abortCont.abort();
-    },[])
+    },[tweets])
 
     return ( 
         <div className="content">
