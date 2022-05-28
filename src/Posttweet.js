@@ -4,7 +4,7 @@ import {useHistory} from 'react-router-dom';
 import Content from './Content';
 
 const Posttweet = () => {
-
+        
     const [tweet, setTweet] = useState('');
 
     const tweets = {tweet}

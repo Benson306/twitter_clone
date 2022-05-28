@@ -19,10 +19,6 @@ const Content = () => {
             setTweet(data)
             setPending(false)
             setError(null)
-
-
-            let newTweet = data.json();
-            setTweet(oldTweets => [...oldTweets, newTweet]);
         })
         .catch((err)=>{
             if(err.name === 'AbortError'){
