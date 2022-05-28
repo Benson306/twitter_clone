@@ -1,7 +1,6 @@
 import Profile from './images/andrew.jpg';
 import {useState, useEffect} from 'react';
 import {useHistory} from 'react-router-dom';
-import Content from './Content';
 
 const Posttweet = () => {
         
