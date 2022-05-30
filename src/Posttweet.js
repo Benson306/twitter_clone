@@ -1,6 +1,5 @@
 import Profile from './images/andrew.jpg';
-import {useState, useEffect} from 'react';
-import Content from './Content';
+import {useState} from 'react';
 
 const Posttweet = () => {
         
@@ -39,7 +38,7 @@ const Posttweet = () => {
                                     onChange={(e) => setPost(e.target.value)}
                                     style={{resize: 'none',marginLeft: '1%', border: 'none', borderBottom: '1px solid gray', backgroundColor: 'black', color: 'white', fontSize: '22px'}}></textarea>
                                 <br />
-                                <input type="submit" style={{marginTop:'1%',backgroundColor:'rgb(29, 155, 240)', color: 'white', padding: '10px', border: 'none', borderRadius:'9999px', fontWeight: 'bold', fontSize: '16px', float: 'right'}} value="weet" />
+                                <input type="submit" style={{marginTop:'1%',backgroundColor:'rgb(29, 155, 240)', color: 'white', padding: '10px', border: 'none', borderRadius:'9999px', fontWeight: 'bold', fontSize: '16px', float: 'right'}} value="Tweet" />
                                 </form>
                             
                         </div>

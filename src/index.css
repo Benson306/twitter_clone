@@ -28,8 +28,6 @@ code {
   border-bottom: 1px solid grey;
 }
 .content{
-  margin-left: 5%;
-  margin-right: 5%;
   color: white;
 }
 nav{
@@ -177,15 +175,49 @@ input[type=text]:hover{
 .tweet{
   margin-top: 2%;
 }
+
 form ::placeholder{
   font-size: 18px;
   color: gray;
 }
+textarea{
+  font-size: 14px;
+}
 textarea:focus{
   outline: none;
+  resize: none;
+  overflow: hidden;
 }
 .twt{
   width: 100%;
   border-bottom: 1px solid gray;
+  display: flex;
+  padding: 5px;
+}
+.pic{
+  width: 10%;
+}
+.tweetContent{
   padding: 10px;
+  width: 80%;
+
+}
+.tweetHeader{
+  display: flex;
+  margin-bottom: 1%;
+}
+.username{
+  margin-right: 2%;
+  font-weight: bolder;
+}
+.handle{
+  color: gray;
+}
+.tweetBody{
+  font-size: 15px;
+}
+.tweetFooter{
+  display: flex;
+  margin-top: 2%;
+  height: 10%;
 }
